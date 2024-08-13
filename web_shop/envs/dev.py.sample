@@ -1,0 +1,12 @@
+DEBUG = True
+
+ALLOWED_HOSTS = ["*"]
+
+SECRET_KEY = 'django-insecure-k5ej=9))!&_31$c+e%w3x068yfl#n8ht48$$4*-=d8^y^3uioa'
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3')
+    }
+}
